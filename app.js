@@ -32,9 +32,9 @@ myApp = [{
   {
     //1
     question: "Шатарт хүний хэдэн дүрс байдаг вэ?",
-    options: ["2", "3", "4"],
-    answer: 1,
-    description: "3 Ноён Хүү Бэрс",
+    options: ["20", "2", "3"],
+    answer: 0,
+    description: "нийт 20 дүрс байдаг",
   },
   {
     question: "ОооШсн ; oh Fuck me <3 бүлгэм хэдэн гишүүнтэй вэ?",
