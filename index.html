@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Quiz</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+</head>
+
+<body>
+
+    <!--Start of Tawk.to Script-->
+
+
+    <div id="audio">
+        <audio controls autoplay hidden>
+            <source src="game.mp3" type="audio/mp3">
+        </audio>
+    </div>
+    <div class="signature-box custom-box show">
+        <!-- quiz-home-box custom-box -->
+        <h4>Асуулт бүрт 20 секундэд багтаан хариулна уу.</h4>
+        <button type="button" class="start-btn btn">Эхлүүлэх</button>
+        <!-- start-quiz-btn btn -->
+    </div>
+    <div class="quiz-box custom-box">
+        <div class="stats">
+            <div class="running-time">
+                <div class="remaining-time"></div>
+                <span class="time-is-up-txt">Цаг дууслаа!</span>
+            </div>
+            <div class="score-board">
+                <span class="score-text">Таны оноо:</span>
+                <span class="correct"></span>
+                <!-- correct-answers -->
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="all-question-number">
+            </div>
+            <div class="question-text">
+            </div>
+        </div>
+        <div class="option-box">
+        </div>
+        <div class="correct-answer-is">
+        </div>
+        <div class="next-question">
+            <button type="button" class="next-question-btn btn">Дараагийн асуулт</button>
+            <button type="button" class="see-result-btn btn">Өөрийн үр дүнг харах</button>
+        </div>
+    </div>
+    <div class="quiz-result-box custom-box">
+        <h1>Үр дүн</h1>
+        <h4>Нийт асуулт: <span class="total-question"></span></h4>
+        <h4>Хариулсан: <span class="total-attempt"></span></h4>
+        <h4>Зөв Хариулсан: <span class="total-correct"></span></span></h4>
+        <h4>Буруу хариулсан: <span class="total-wrong"></span></h4>
+        <h4>Хувь: <span class="total-percentage"></span></h4>
+        <button type="button" class="retry-btn btn">Дахин Эхлүүлэх</button>
+        <button type="button" class="main-menu-btn btn">Нүүр хуудас</button>
+
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
